@@ -73,6 +73,7 @@ This may sound silly, but I think it's useful to know who some of the main playe
   * Yann LeCunn
   * Andrew Ng
   * Fei-Fei Li
+  * Karl Friston
 * Humans according to Republicans
   * OpenAI
   * FastAI
@@ -88,9 +89,12 @@ I found PyTorch, Keras, and Tensorflow have great tutorials.  If you're thinking
 Jupyter notebooks are another thing people have strong feelings for.  Definitely try them out and be familiar with them. They are things they are very useful for. However, there are many things Jupyter notebooks suck at, and no production code is going to be in a notebook.  Be familiar with running scripts and building out a repo instead of having everything buried in a notebook. I typically will do a POC in a notebook and have some examples as a reference, but most of my work is running scripts from the command line. Tools like [streamlit](http://streamlit.io/) may kill the need for the best use-case Jupyter notebooks: making a nice report. I believe it's still in beta, but I think it's a good idea.
 
 ## Other resources
-* Everything: Actually, I found a ton of good youtube material. Let the video rating be your guide.
-* General stats: I really like [statquest](https://www.youtube.com/user/joshstarmer) for statistics one-offs. 
-* Machine learning: If you can, try and find a video of Andrew Ng explaining the topic. He is a master.
+* YouTube: Actually, I found a ton of good youtube material. Let the video rating be your guide.
+  * [statquest](https://www.youtube.com/user/joshstarmer): general statistics one-offs. 
+  * [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA): General high-level software concepts. They are also British, which is fun.
+  * [HackerRack](https://www.youtube.com/channel/UCOf7UPMHBjAavgD0Qw5q5ww): This is essentially cracking the coding interview's YouTube channel. Check this out for data structures and algorithms
+  * [ArxivInsight](https://www.youtube.com/channel/UCNIkB2IeJ-6AmZv7bQ1oBYg): This guy is good at giving high-level explanations of various deep and reinforcement learning.
+  * Machine learning: If you can, try and find a video of Andrew Ng explaining the topic. He is a master. His coursera lectures are scattered on YouTube.
 * Podcasts: I actually found listening to ML themed podcasts interesting and helpful. You learn about what people are currently working on as well a background on common tools and methods.  There have been many times where I had a 'Ah-ha!' moment connecting something I was working on with something I heard in a podcast. Here are some good ones:
   * This Week in Machine Learning (TWiML)
   * Talking Machines: I only  listened to the earlier ones. I really enjoyed learning about the history of deep learning
