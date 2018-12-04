@@ -1,20 +1,6 @@
 # ML prep
 Here is my guide for anyone looking to transition into machine learning for academia.  I will recommend courses to check out as well as things to be aware before you should try to interview at a company. I'll give a little bit of background to set the stage. I am going to try my best to introduce for keywords and ideas before diving into specifics. Note, this mainly applies to PhDs in the hard sciences. I mention that because I am assuming the reader has a basic understanding of linear algebra, probability, and calculus.
 
-## What is machine learning? (optional intro)
-
-We are constantly trying to describe phenomena to make sense of the world. To do this, we either have a theoretical basis for an equation or we try to guess it's form. In either case, we collect data points of some experiment or event. From these, we try to model the behavior of the inputs to describe some output. You've already done this many times in your life: you have some dependent variables and independent variables and try a find a function that takes you from the input (dependent variables) to the output (independent variables). _I.e_, we have some data points and we are trying to draw a line that describes the variable.  Most people are more comfortable with continuous outputs. Meaning, the output could be some real number. 
-
-Let's run an experiment.  Let's say I want to predict how much a baby weighs from age 0-1. I go out and collect a bunch of data points and record their age and weight. I plot weight vs age, and the data looks like it's following a linear trend (a straight line). I guess that the function that describes the behavior is weight = m * age + b ($\hat{y} = m x + b$). Note, people in machine learning like to call $x$ features and $y$ outputs or labels (this will make more sense in a bit). Now, we have a bunch of $y$ and $x$ points, and to describe the behavior I need to find $m$ and $b$. Note, this is just a linear equation! I can analytically solve the question to find what $m$ and $b$ are! However, that involves inverting a matrix, which is computationally expensive if you have a lot a points.
-
-There are ways to iteratively solve this equation. When I do this, I calculate a cost function, which describes how close my function is approximating the data.  I feed in some data points, calculate the cost, and update the fit parameters so I do better.  One could say that the program is learning (finding better and better fit parameters) by seeing examples, _i.e._, Machine learning!
-
-Now, what I've described is supervised learning. I should also mention that most supervised learning problems don't look at continuous outputs, but rather discrete classes or labels.  The function will take in an input and output a class label. One fun example is feeding in an input image and predicting if it's a cat or dog. 
-
-Other types of machine learning problems are unsupervised learning and reinforcement learning.  In unsupervised, we don't have labels for the data. For unsupervised learning, we typically try are cluster things by their features. Reinforcement learning describes problems where a program tries a series of actions and is rewarded or punished for actions that get it closer to goal. (Think of an agent navigating through a maze with traps. Falling in a trap is bad and reaching the goal is good.) A program will try sequences of events and learn from the it's past successes and failures.
-
-You may also have heard of neural nets and deep learning.  Neural nets and deep learning are tools, not a type of problem (although they are good at solving certain classes of problems, like image recognition). More specifically, neural nets are a type of function approximator you can use. When calculating an output, they calculate intermediate values called activations. These activations live in things called layers.  Deep learning describes ML problems where you use deep neural networks (_i.e._, many layers) 
-
 ## General plan of attack
 Well, this of course is buyer beware. Everyone is different, yada yada yada. Here is roughly what Mike and Tom did. Our paths diverged, but so it should be nice to see different thoughts. I am going to assume you have some background in programming---you can write code pretty well in a certain language and are familiar with classes. If not, you may want to brush up on this, but I don't know what the best resource is.  Usually coding is the best way!
 
@@ -58,6 +44,7 @@ Python vs R is a pretty classic debate in data science and ML.  Historically, py
 ## Tools to know
 
 * git: this is mandatory. Start putting all your projects on GitHub and use it for everything
+* Docker: At the very least, be familiar with this. It's not hard to learn and is a great tool
 * pandas: data frame tool. I don't love it, but you should know it.
 * sklearn: go to for standard (not deep) machine learning
 * Tensorflow (and Keras)*: ML library. Developed by Google. Keras is an API that sits on top of Tensorflow. Use Keras if you can.
