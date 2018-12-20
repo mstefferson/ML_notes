@@ -25,7 +25,7 @@ The interview is looking for your ability to solve open-ended questions, how eas
 
 
 ## ML case study
-This is like a system design question, but more focused on a data driven problem. You'll be given a problem and be asked how you can use ML to solve it. Like a system design, ask a million questions.  Be prepared to discuss models you'd pick and be able to defend your choice. You may need to design features, figure out how you'd collect data, etc.
+This is like a system design question, but more focused on a data driven problem. You'll be given a problem and be asked how you can use ML to solve it. Like a system design, ask a million questions.  Be prepared to discuss models you'd pick and be able to defend your choice. You may need to design features, figure out how you'd collect data, etc. Check out the 'Library problem' episode on Data Skeptic.
 
 ## ML/Stats questions
 This will be like a rapid fire round be prepared to answer questions like: what's bias/variance trade-off? Bagging? Bootstrap? Regularization? Type I vs Type II error? Precision vs recall? Check out these [ML interview questions](https://www.springboard.com/blog/machine-learning-interview-questions/). The questions seemed good, but I didn't look through the answers so I wouldn't assume they are correct. Data science warning: you may be asked a SQL question.

@@ -61,6 +61,7 @@ This may sound silly, but I think it's useful to know who some of the main playe
   * Andrew Ng
   * Fei-Fei Li
   * Karl Friston
+  * Andrej Karpathy
 * Humans according to Republicans
   * OpenAI
   * FastAI
