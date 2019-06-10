@@ -35,3 +35,9 @@ This is the traditional interview part of the interview, but don't skip this bec
 
 ## GitHub/Technical review of a project
 Git is an essential tool, and I would be shocked if someone was hired without one. It's fine to put rough projects on there, but make sure your pinned repos are nice and have a README. Take a look at [My github](https://github.com/mstefferson) for an example. You should have at least one project that is really clean with a badass README. You also need to have a good ML/DS project. Check out [My Insight project, Canopy,](https://github.com/mstefferson/Canopy) for a good example. I'd also recommend looking at the code to a sense of what nice code looks like. Start linting you code now! There are plugins for all major editors. I use Syntanstic in vim. It's super easy to do and makes your codebase look a million times better.
+
+
+## Additional resources
+
+* [Data science interview](https://medium.com/better-programming/the-data-science-interview-study-guide-c3824cb76c2e)
+* [Five interview questions](https://mail.google.com/mail/u/0/?tab=mm#inbox/FMfcgxwCgxzrvZHZFcfdTnCNKfrbxSWT)
